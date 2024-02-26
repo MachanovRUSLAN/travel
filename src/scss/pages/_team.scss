@@ -1,0 +1,68 @@
+.team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .head-text {
+    padding-bottom: 20px;
+  }
+}
+.content-2 {
+  margin-top: 20px;
+  border: 1px solid rgb(166, 164, 164);
+  position: relative;
+
+  .main-text {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+.img-box {
+  position: relative;
+  text-align: start;
+  overflow: hidden;
+
+  //  overflow: hidden;
+  &:hover .info {
+    top: 170px;
+    transform: translate(1.1);
+  }
+
+  .info {
+    width: 200px;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    position: absolute;
+    top: 240px;
+
+    h1 {
+      font-size: 18px;
+      color: black;
+    }
+  }
+  img {
+    width: 100%;
+  }
+  @media (max-width: 992px) {
+    .info {
+      pad: 20px;
+      width: 300px;
+      top: 350px;
+      transform: translate(1.1);
+    }
+    &:hover .info {
+      top: 260px;
+      transform: translate(1.1);
+    }
+  }
+  @media (max-width: 500px) {
+    .info {
+      width: 320px;
+      top: 390px;
+      transform: translate(1.1);
+    }
+    &:hover .info {
+      top: 290px;
+      transform: translate(1.1);
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.blog {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .head-text {
+    padding-bottom: 20px;
+  }
+}
+.content {
+  margin-top: 20px;
+  border: 1px solid rgb(166, 164, 164);
+  position: relative;
+
+  .main-text-3 {
+    font-size: 24px;
+    font-weight: 600;
+    transition: 0.3s;
+    &:hover {
+      color: rgb(161, 127, 15);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+  }
+  .img-box-2 {
+    text-align: start;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  .data {
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    background: linear-gradient(rgb(238, 143, 184), rgb(235, 217, 98));
+    position: absolute;
+    left: 0;
+    transition: 0.8s ease;
+    color: #fff;
+    top: 0;
+  }
+}

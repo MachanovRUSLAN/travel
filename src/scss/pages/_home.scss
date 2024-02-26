@@ -1,0 +1,41 @@
+.home-banner-area {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-image: url(/public/picturs/home-banner.png.webp);
+  background-position: center;
+
+  .home-area {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text-area {
+      text-align: center;
+
+      p {
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Manrope", sans-serif;
+        font-family: "Playfair Display", serif;
+      }
+
+      h1 {
+        font-family: "Manrope", sans-serif;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 120px;
+        color: #fff;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}

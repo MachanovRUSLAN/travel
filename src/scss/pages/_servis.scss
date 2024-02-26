@@ -1,0 +1,85 @@
+.services {
+  margin-top: 30px;
+  width: 100%;
+
+hr {
+margin-top: 30px; 
+}
+.container {
+    width: 90%;
+    .head-text {
+      margin-top: 10px;
+      font-size: 40px;
+    }
+
+    .content {
+      border: 1px solid rgb(234, 222, 222);
+      margin-top: 70px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+
+      &:hover {
+        box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2), -5px 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .main-text {
+        font-size: 24px;
+        color: #090909;
+        font-weight: 600;
+      }
+
+      p {
+        color: #6e6369;
+        font-weight: 300;
+        font-size: 14px;
+
+        a {
+          font-weight: 600;
+          font-size: 20px;
+          text-decoration: none;
+          color: #090909;
+        }
+      }
+    }
+  }
+}
+
+.advanture {
+  background: url(https://preview.colorlib.com/theme/taxa/img/cta-bg.png) center no-repeat;
+  background-size: cover;
+  color: #000000;
+  margin-top: 25px;
+  margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+
+  .content-sent {
+    h1 {
+      font-size: 48px;
+      color: #000000;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    p {
+      font-weight: 500;
+    }
+
+    button {
+      width: 130px;
+      background: transparent;
+      color: #000000;
+      border: 1px solid #030303;
+      margin-right: 30px;
+      height: 40px;
+      font-weight: 500;
+      transition: 0.2s ease-in;
+
+      &:hover {
+        background-color: black;
+        color: #fff;
+      }
+    }
+  }
+}

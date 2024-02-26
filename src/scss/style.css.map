@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sources": [
+    "src/scss/layout/_header.scss",
+    "style.css",
+    "src/scss/pages/_home.scss"
+  ],
+  "names": [],
+  "file": "style.css"
+}

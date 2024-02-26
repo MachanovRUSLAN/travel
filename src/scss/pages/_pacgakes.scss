@@ -1,0 +1,54 @@
+.pacgakes {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .head-text {
+    padding-bottom: 20px;
+  }
+}
+.content {
+  margin-top: 20px;
+  border: 1px solid rgb(166, 164, 164);
+  position: relative;
+
+  .main-text-2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    &:hover {
+      color: rgb(130, 100, 11);
+    }
+  }
+  &:hover .data {
+    background: linear-gradient(rgb(255, 16, 119), rgb(244, 213, 7));
+  }
+  .img-box {
+    text-align: start;
+    overflow: hidden;
+    img {
+      width: 100%;
+      transition: all 0.3s ease-in 0s;
+    }
+  }
+  &:hover .img-box img {
+    transform: scale(1.06);
+  }
+  .data {
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    background: linear-gradient(rgb(238, 143, 184), rgb(235, 217, 98));
+    position: absolute;
+    left: 0;
+    transition: 0.8s ease;
+    color: #fff;
+    top: 0;
+  }
+}
